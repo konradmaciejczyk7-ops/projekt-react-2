@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  background: #011342a6;
+  color: rgba(207, 201, 241, 0.493);
+  font-family: "Comic Sans MS";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card {
+  border: 2px solid #0484ec;
+  padding: 10px;
+}
+
+.fav {
+  background: #1c9cff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.forecast {
+  display: flex;
+  gap: 10px;
+}
